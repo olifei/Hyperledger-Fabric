@@ -1,5 +1,4 @@
-# Hyperledger-Fabric
-Hyperledger Fabric blockchain framework learning note
+# Membership
 #### 本地和信道MSPs
 本地MSPs仅仅在每个节点被定义。但是信道MSPs只在信道中定义一次，每一个信道内的节点都在自己本地存储一份信道MSP的副本。  
 #### MSP层级
@@ -18,4 +17,9 @@ Hyperledger Fabric blockchain framework learning note
 * Keystore for Private Key
 * TLS Root CA
 * TLS Intermediate CA
-
+# Peers
+区块链是由peer节点组成的，peer是参与形成账本和是能合约的重要元素。
+#### 特殊名词
+Fabric系统是通过**chaincode**来实现智能合约的
+#### 账本和chaincode
+每个peer节点都在本地维护了一个账本和chaincode，这样做的原因是确保分布式结构和区块链去中心化的网络性质。  
